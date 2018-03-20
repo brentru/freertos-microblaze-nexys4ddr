@@ -1,0 +1,805 @@
+
+*** Running vivado
+    with args -log microblaze_impl_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source microblaze_impl_wrapper.tcl -notrace
+
+
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source microblaze_impl_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+add_files: Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 392.770 ; gain = 96.188
+Command: link_design -top microblaze_impl_wrapper -part xc7a100tcsg324-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_axi_ethernetlite_0_0/microblaze_impl_axi_ethernetlite_0_0.dcp' for cell 'microblaze_impl_i/axi_ethernetlite_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_axi_smc_0/microblaze_impl_axi_smc_0.dcp' for cell 'microblaze_impl_i/axi_smc'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_axi_timer_0_0/microblaze_impl_axi_timer_0_0.dcp' for cell 'microblaze_impl_i/axi_timer_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_axi_uartlite_0_0/microblaze_impl_axi_uartlite_0_0.dcp' for cell 'microblaze_impl_i/axi_uartlite_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_clk_wiz_1_0/microblaze_impl_clk_wiz_1_0.dcp' for cell 'microblaze_impl_i/clk_wiz_1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_mdm_1_0/microblaze_impl_mdm_1_0.dcp' for cell 'microblaze_impl_i/mdm_1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_microblaze_0_0/microblaze_impl_microblaze_0_0.dcp' for cell 'microblaze_impl_i/microblaze_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_microblaze_0_axi_intc_0/microblaze_impl_microblaze_0_axi_intc_0.dcp' for cell 'microblaze_impl_i/microblaze_0_axi_intc'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_microblaze_0_xlconcat_0/microblaze_impl_microblaze_0_xlconcat_0.dcp' for cell 'microblaze_impl_i/microblaze_0_xlconcat'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_mig_7series_0_0/microblaze_impl_mig_7series_0_0.dcp' for cell 'microblaze_impl_i/mig_7series_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_mii_to_rmii_0_0/microblaze_impl_mii_to_rmii_0_0.dcp' for cell 'microblaze_impl_i/mii_to_rmii_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_rst_clk_wiz_1_100M_0/microblaze_impl_rst_clk_wiz_1_100M_0.dcp' for cell 'microblaze_impl_i/rst_clk_wiz_1_100M'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_rst_mig_7series_0_81M_0/microblaze_impl_rst_mig_7series_0_81M_0.dcp' for cell 'microblaze_impl_i/rst_mig_7series_0_81M'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_xbar_0/microblaze_impl_xbar_0.dcp' for cell 'microblaze_impl_i/microblaze_0_axi_periph/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_dlmb_bram_if_cntlr_0/microblaze_impl_dlmb_bram_if_cntlr_0.dcp' for cell 'microblaze_impl_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_dlmb_v10_0/microblaze_impl_dlmb_v10_0.dcp' for cell 'microblaze_impl_i/microblaze_0_local_memory/dlmb_v10'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_ilmb_bram_if_cntlr_0/microblaze_impl_ilmb_bram_if_cntlr_0.dcp' for cell 'microblaze_impl_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_ilmb_v10_0/microblaze_impl_ilmb_v10_0.dcp' for cell 'microblaze_impl_i/microblaze_0_local_memory/ilmb_v10'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_lmb_bram_0/microblaze_impl_lmb_bram_0.dcp' for cell 'microblaze_impl_i/microblaze_0_local_memory/lmb_bram'
+INFO: [Netlist 29-17] Analyzing 1035 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. microblaze_impl_i/axi_ethernetlite_0/U0/NO_LOOPBACK_GEN.INCLUDE_BUFG_GEN.RX_IBUF_INST 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. microblaze_impl_i/axi_ethernetlite_0/U0/NO_LOOPBACK_GEN.INCLUDE_BUFG_GEN.TX_IBUF_INST 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'microblaze_impl_i/axi_ethernetlite_0/phy_rx_clk' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.runs/impl_1/.Xil/Vivado-4016-DESKTOP-HT0SF0U/dcp17/microblaze_impl_axi_ethernetlite_0_0.edf:51353]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'microblaze_impl_i/axi_ethernetlite_0/phy_tx_clk' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.runs/impl_1/.Xil/Vivado-4016-DESKTOP-HT0SF0U/dcp17/microblaze_impl_axi_ethernetlite_0_0.edf:51365]
+Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_microblaze_0_0/microblaze_impl_microblaze_0_0.xdc] for cell 'microblaze_impl_i/microblaze_0/U0'
+Finished Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_microblaze_0_0/microblaze_impl_microblaze_0_0.xdc] for cell 'microblaze_impl_i/microblaze_0/U0'
+Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_microblaze_0_axi_intc_0/microblaze_impl_microblaze_0_axi_intc_0.xdc] for cell 'microblaze_impl_i/microblaze_0_axi_intc/U0'
+Finished Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_microblaze_0_axi_intc_0/microblaze_impl_microblaze_0_axi_intc_0.xdc] for cell 'microblaze_impl_i/microblaze_0_axi_intc/U0'
+Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_mdm_1_0/microblaze_impl_mdm_1_0.xdc] for cell 'microblaze_impl_i/mdm_1/U0'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_mdm_1_0/microblaze_impl_mdm_1_0.xdc:50]
+get_clocks: Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1470.438 ; gain = 582.570
+Finished Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_mdm_1_0/microblaze_impl_mdm_1_0.xdc] for cell 'microblaze_impl_i/mdm_1/U0'
+Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_clk_wiz_1_0/microblaze_impl_clk_wiz_1_0_board.xdc] for cell 'microblaze_impl_i/clk_wiz_1/inst'
+Finished Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_clk_wiz_1_0/microblaze_impl_clk_wiz_1_0_board.xdc] for cell 'microblaze_impl_i/clk_wiz_1/inst'
+Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_clk_wiz_1_0/microblaze_impl_clk_wiz_1_0.xdc] for cell 'microblaze_impl_i/clk_wiz_1/inst'
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_clk_wiz_1_0/microblaze_impl_clk_wiz_1_0.xdc:57]
+Finished Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_clk_wiz_1_0/microblaze_impl_clk_wiz_1_0.xdc] for cell 'microblaze_impl_i/clk_wiz_1/inst'
+Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_rst_clk_wiz_1_100M_0/microblaze_impl_rst_clk_wiz_1_100M_0_board.xdc] for cell 'microblaze_impl_i/rst_clk_wiz_1_100M/U0'
+Finished Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_rst_clk_wiz_1_100M_0/microblaze_impl_rst_clk_wiz_1_100M_0_board.xdc] for cell 'microblaze_impl_i/rst_clk_wiz_1_100M/U0'
+Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_rst_clk_wiz_1_100M_0/microblaze_impl_rst_clk_wiz_1_100M_0.xdc] for cell 'microblaze_impl_i/rst_clk_wiz_1_100M/U0'
+Finished Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_rst_clk_wiz_1_100M_0/microblaze_impl_rst_clk_wiz_1_100M_0.xdc] for cell 'microblaze_impl_i/rst_clk_wiz_1_100M/U0'
+Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_dlmb_v10_0/microblaze_impl_dlmb_v10_0.xdc] for cell 'microblaze_impl_i/microblaze_0_local_memory/dlmb_v10/U0'
+Finished Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_dlmb_v10_0/microblaze_impl_dlmb_v10_0.xdc] for cell 'microblaze_impl_i/microblaze_0_local_memory/dlmb_v10/U0'
+Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_ilmb_v10_0/microblaze_impl_ilmb_v10_0.xdc] for cell 'microblaze_impl_i/microblaze_0_local_memory/ilmb_v10/U0'
+Finished Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_ilmb_v10_0/microblaze_impl_ilmb_v10_0.xdc] for cell 'microblaze_impl_i/microblaze_0_local_memory/ilmb_v10/U0'
+Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_mig_7series_0_0/microblaze_impl_mig_7series_0_0/user_design/constraints/microblaze_impl_mig_7series_0_0.xdc] for cell 'microblaze_impl_i/mig_7series_0'
+Finished Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_mig_7series_0_0/microblaze_impl_mig_7series_0_0/user_design/constraints/microblaze_impl_mig_7series_0_0.xdc] for cell 'microblaze_impl_i/mig_7series_0'
+Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_mig_7series_0_0/microblaze_impl_mig_7series_0_0_board.xdc] for cell 'microblaze_impl_i/mig_7series_0'
+Finished Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_mig_7series_0_0/microblaze_impl_mig_7series_0_0_board.xdc] for cell 'microblaze_impl_i/mig_7series_0'
+Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_mii_to_rmii_0_0/microblaze_impl_mii_to_rmii_0_0_board.xdc] for cell 'microblaze_impl_i/mii_to_rmii_0/U0'
+Finished Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_mii_to_rmii_0_0/microblaze_impl_mii_to_rmii_0_0_board.xdc] for cell 'microblaze_impl_i/mii_to_rmii_0/U0'
+Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_axi_uartlite_0_0/microblaze_impl_axi_uartlite_0_0_board.xdc] for cell 'microblaze_impl_i/axi_uartlite_0/U0'
+Finished Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_axi_uartlite_0_0/microblaze_impl_axi_uartlite_0_0_board.xdc] for cell 'microblaze_impl_i/axi_uartlite_0/U0'
+Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_axi_uartlite_0_0/microblaze_impl_axi_uartlite_0_0.xdc] for cell 'microblaze_impl_i/axi_uartlite_0/U0'
+Finished Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_axi_uartlite_0_0/microblaze_impl_axi_uartlite_0_0.xdc] for cell 'microblaze_impl_i/axi_uartlite_0/U0'
+Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_axi_ethernetlite_0_0/microblaze_impl_axi_ethernetlite_0_0_board.xdc] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0'
+Finished Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_axi_ethernetlite_0_0/microblaze_impl_axi_ethernetlite_0_0_board.xdc] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0'
+Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_axi_ethernetlite_0_0/microblaze_impl_axi_ethernetlite_0_0.xdc] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0'
+Finished Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_axi_ethernetlite_0_0/microblaze_impl_axi_ethernetlite_0_0.xdc] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0'
+Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_axi_timer_0_0/microblaze_impl_axi_timer_0_0.xdc] for cell 'microblaze_impl_i/axi_timer_0/U0'
+Finished Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_axi_timer_0_0/microblaze_impl_axi_timer_0_0.xdc] for cell 'microblaze_impl_i/axi_timer_0/U0'
+Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_axi_smc_0/bd_0/ip/ip_1/bd_b2f4_psr0_0_board.xdc] for cell 'microblaze_impl_i/axi_smc/inst/clk_map/psr0/U0'
+Finished Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_axi_smc_0/bd_0/ip/ip_1/bd_b2f4_psr0_0_board.xdc] for cell 'microblaze_impl_i/axi_smc/inst/clk_map/psr0/U0'
+Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_axi_smc_0/bd_0/ip/ip_1/bd_b2f4_psr0_0.xdc] for cell 'microblaze_impl_i/axi_smc/inst/clk_map/psr0/U0'
+Finished Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_axi_smc_0/bd_0/ip/ip_1/bd_b2f4_psr0_0.xdc] for cell 'microblaze_impl_i/axi_smc/inst/clk_map/psr0/U0'
+Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_axi_smc_0/bd_0/ip/ip_2/bd_b2f4_psr_aclk_0_board.xdc] for cell 'microblaze_impl_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_axi_smc_0/bd_0/ip/ip_2/bd_b2f4_psr_aclk_0_board.xdc] for cell 'microblaze_impl_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_axi_smc_0/bd_0/ip/ip_2/bd_b2f4_psr_aclk_0.xdc] for cell 'microblaze_impl_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_axi_smc_0/bd_0/ip/ip_2/bd_b2f4_psr_aclk_0.xdc] for cell 'microblaze_impl_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_axi_smc_0/bd_0/ip/ip_3/bd_b2f4_psr_aclk1_0_board.xdc] for cell 'microblaze_impl_i/axi_smc/inst/clk_map/psr_aclk1/U0'
+Finished Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_axi_smc_0/bd_0/ip/ip_3/bd_b2f4_psr_aclk1_0_board.xdc] for cell 'microblaze_impl_i/axi_smc/inst/clk_map/psr_aclk1/U0'
+Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_axi_smc_0/bd_0/ip/ip_3/bd_b2f4_psr_aclk1_0.xdc] for cell 'microblaze_impl_i/axi_smc/inst/clk_map/psr_aclk1/U0'
+Finished Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_axi_smc_0/bd_0/ip/ip_3/bd_b2f4_psr_aclk1_0.xdc] for cell 'microblaze_impl_i/axi_smc/inst/clk_map/psr_aclk1/U0'
+Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_rst_mig_7series_0_81M_0/microblaze_impl_rst_mig_7series_0_81M_0_board.xdc] for cell 'microblaze_impl_i/rst_mig_7series_0_81M/U0'
+Finished Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_rst_mig_7series_0_81M_0/microblaze_impl_rst_mig_7series_0_81M_0_board.xdc] for cell 'microblaze_impl_i/rst_mig_7series_0_81M/U0'
+Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_rst_mig_7series_0_81M_0/microblaze_impl_rst_mig_7series_0_81M_0.xdc] for cell 'microblaze_impl_i/rst_mig_7series_0_81M/U0'
+Finished Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_rst_mig_7series_0_81M_0/microblaze_impl_rst_mig_7series_0_81M_0.xdc] for cell 'microblaze_impl_i/rst_mig_7series_0_81M/U0'
+Parsing XDC File [C:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/constrs_1/new/eth_ref_clk.xdc]
+Finished Parsing XDC File [C:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/constrs_1/new/eth_ref_clk.xdc]
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_axi_ethernetlite_0_0/microblaze_impl_axi_ethernetlite_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_axi_smc_0/microblaze_impl_axi_smc_0.dcp'
+Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_microblaze_0_axi_intc_0/microblaze_impl_microblaze_0_axi_intc_0_clocks.xdc] for cell 'microblaze_impl_i/microblaze_0_axi_intc/U0'
+Finished Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_microblaze_0_axi_intc_0/microblaze_impl_microblaze_0_axi_intc_0_clocks.xdc] for cell 'microblaze_impl_i/microblaze_0_axi_intc/U0'
+Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_axi_ethernetlite_0_0/microblaze_impl_axi_ethernetlite_0_0_clocks.xdc] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0'
+Finished Parsing XDC File [c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_axi_ethernetlite_0_0/microblaze_impl_axi_ethernetlite_0_0_clocks.xdc] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addrb_to_wr_clk'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addrb_to_wr_clk'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addrb_to_wr_clk'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addrb_to_wr_clk'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addra_to_rd_clk'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addra_to_rd_clk'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addrb_to_wr_clk'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addrb_to_wr_clk'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addra_to_rd_clk'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addra_to_rd_clk'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addrb_to_wr_clk'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addrb_to_wr_clk'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addra_to_rd_clk'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addra_to_rd_clk'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addra_to_rd_clk'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addra_to_rd_clk'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addrb_to_wr_clk'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addrb_to_wr_clk'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addra_to_rd_clk'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addra_to_rd_clk'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addrb_to_wr_clk'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addrb_to_wr_clk'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addra_to_rd_clk'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addra_to_rd_clk'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addrb_to_wr_clk'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addrb_to_wr_clk'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addra_to_rd_clk'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_async_clocks.inst_cdc_addra_to_rd_clk'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.rrst_wr_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.rrst_wr_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.wrst_rd_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.wrst_rd_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.rrst_wr_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.rrst_wr_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.wrst_rd_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.wrst_rd_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[0].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[0].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[1].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[1].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/s01_nodes/s01_ar_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/s01_nodes/s01_ar_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/s01_nodes/s01_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/s01_nodes/s01_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/s00_nodes/s00_b_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/s00_nodes/s00_b_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/s01_nodes/s01_r_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/s01_nodes/s01_r_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/s00_nodes/s00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/s00_nodes/s00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/s01_nodes/s01_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_smc/inst/s01_nodes/s01_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/RX_PONG_GEN.RX_PONG_I/xpm_mem_gen.xpm_memory_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/RX_PONG_GEN.RX_PONG_I/xpm_mem_gen.xpm_memory_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/TX_PING/xpm_mem_gen.xpm_memory_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/TX_PING/xpm_mem_gen.xpm_memory_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/RX_PING/xpm_mem_gen.xpm_memory_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/RX_PING/xpm_mem_gen.xpm_memory_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/TX_PONG_GEN.TX_PONG_I/xpm_mem_gen.xpm_memory_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/TX_PONG_GEN.TX_PONG_I/xpm_mem_gen.xpm_memory_inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Generating merged BMM file for the design top 'microblaze_impl_wrapper'...
+INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: c:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.srcs/sources_1/bd/microblaze_impl/ip/microblaze_impl_microblaze_0_0/data/mb_bootloop_le.elf 
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 554 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 1 instances
+  IOBUFDS_INTERMDISABLE => IOBUFDS_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT, IBUFDS_INTERMDISABLE_INT, INV, OBUFTDS, OBUFTDS): 2 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 16 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 88 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM16X1D => RAM32X1D (RAMD32, RAMD32): 34 instances
+  RAM16X1S => RAM32X1S (RAMS32): 4 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 373 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 35 instances
+
+34 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:50 ; elapsed = 00:00:55 . Memory (MB): peak = 1512.777 ; gain = 1120.008
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1512.777 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 20 inverter(s) to 95 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: ecd3ede3
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1512.777 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 243 cells and removed 428 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 5 inverter(s) to 13 load pin(s).
+Phase 2 Constant propagation | Checksum: 1715d795f
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1512.777 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 302 cells and removed 1331 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 11c82f388
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1512.777 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 1 cells and removed 2362 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 11c82f388
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1512.777 ; gain = 0.000
+INFO: [Opt 31-389] Phase BUFG optimization created 0 cells and removed 0 cells
+
+Phase 5 Shift Register Optimization
+Phase 5 Shift Register Optimization | Checksum: 11c82f388
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1512.777 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.103 . Memory (MB): peak = 1512.777 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: eb0a1b47
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1512.777 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=1.311 | TNS=0.000 |
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 22 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 6 WE to EN ports
+Number of BRAM Ports augmented: 0 newly gated: 10 Total Ports: 44
+Ending PowerOpt Patch Enables Task | Checksum: 170160c82
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.297 . Memory (MB): peak = 1903.391 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 170160c82
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:12 . Memory (MB): peak = 1903.391 ; gain = 390.613
+
+Starting Logic Optimization Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 1 Remap
+Phase 1 Remap | Checksum: 1515c94cf
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1903.391 ; gain = 0.000
+INFO: [Opt 31-389] Phase Remap created 4 cells and removed 8 cells
+Ending Logic Optimization Task | Checksum: 1515c94cf
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1903.391 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+57 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:47 ; elapsed = 00:00:36 . Memory (MB): peak = 1903.391 ; gain = 390.613
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.125 . Memory (MB): peak = 1903.391 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.runs/impl_1/microblaze_impl_wrapper_opt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 1903.391 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_drc -file microblaze_impl_wrapper_drc_opted.rpt -pb microblaze_impl_wrapper_drc_opted.pb -rpx microblaze_impl_wrapper_drc_opted.rpx
+Command: report_drc -file microblaze_impl_wrapper_drc_opted.rpt -pb microblaze_impl_wrapper_drc_opted.pb -rpx microblaze_impl_wrapper_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.runs/impl_1/microblaze_impl_wrapper_drc_opted.rpt.
+report_drc completed successfully
+INFO: [Chipscope 16-241] No debug cores found in the current design.
+Before running the implement_debug_core command, either use the Set Up Debug wizard (GUI mode)
+or use the create_debug_core and connect_debug_core Tcl commands to insert debug cores into the design.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.099 . Memory (MB): peak = 1903.391 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 608beb26
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.126 . Memory (MB): peak = 1903.391 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.102 . Memory (MB): peak = 1903.391 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+CRITICAL WARNING: [Place 30-73] Invalid constraint on register 'microblaze_impl_i/axi_ethernetlite_0/U0/IOFFS_GEN2.DVD_FF'. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+CRITICAL WARNING: [Place 30-73] Invalid constraint on register 'microblaze_impl_i/axi_ethernetlite_0/U0/IOFFS_GEN2.RER_FF'. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+CRITICAL WARNING: [Place 30-73] Invalid constraint on register 'microblaze_impl_i/axi_ethernetlite_0/U0/IOFFS_GEN2.TEN_FF'. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+CRITICAL WARNING: [Place 30-73] Invalid constraint on register 'microblaze_impl_i/axi_ethernetlite_0/U0/IOFFS_GEN[0].RX_FF_I'. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+CRITICAL WARNING: [Place 30-73] Invalid constraint on register 'microblaze_impl_i/axi_ethernetlite_0/U0/IOFFS_GEN[0].TX_FF_I'. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+CRITICAL WARNING: [Place 30-73] Invalid constraint on register 'microblaze_impl_i/axi_ethernetlite_0/U0/IOFFS_GEN[1].RX_FF_I'. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+CRITICAL WARNING: [Place 30-73] Invalid constraint on register 'microblaze_impl_i/axi_ethernetlite_0/U0/IOFFS_GEN[1].TX_FF_I'. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+CRITICAL WARNING: [Place 30-73] Invalid constraint on register 'microblaze_impl_i/axi_ethernetlite_0/U0/IOFFS_GEN[2].RX_FF_I'. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+CRITICAL WARNING: [Place 30-73] Invalid constraint on register 'microblaze_impl_i/axi_ethernetlite_0/U0/IOFFS_GEN[2].TX_FF_I'. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+CRITICAL WARNING: [Place 30-73] Invalid constraint on register 'microblaze_impl_i/axi_ethernetlite_0/U0/IOFFS_GEN[3].RX_FF_I'. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+CRITICAL WARNING: [Place 30-73] Invalid constraint on register 'microblaze_impl_i/axi_ethernetlite_0/U0/IOFFS_GEN[3].TX_FF_I'. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 11f53e5fe
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1903.391 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 1b9c3d980
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:17 . Memory (MB): peak = 1903.391 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 1b9c3d980
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:18 . Memory (MB): peak = 1903.391 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 1b9c3d980
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:18 . Memory (MB): peak = 1903.391 ; gain = 0.000
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: cc9bae8f
+
+Time (s): cpu = 00:00:52 ; elapsed = 00:00:37 . Memory (MB): peak = 1903.391 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: cc9bae8f
+
+Time (s): cpu = 00:00:52 ; elapsed = 00:00:37 . Memory (MB): peak = 1903.391 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 21f1284c1
+
+Time (s): cpu = 00:00:59 ; elapsed = 00:00:42 . Memory (MB): peak = 1903.391 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 1d32e0915
+
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:42 . Memory (MB): peak = 1903.391 ; gain = 0.000
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 1bfa0fb2a
+
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:42 . Memory (MB): peak = 1903.391 ; gain = 0.000
+
+Phase 3.5 Timing Path Optimizer
+Phase 3.5 Timing Path Optimizer | Checksum: 1bfa0fb2a
+
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:42 . Memory (MB): peak = 1903.391 ; gain = 0.000
+
+Phase 3.6 Fast Optimization
+Phase 3.6 Fast Optimization | Checksum: 1bfa0fb2a
+
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:42 . Memory (MB): peak = 1903.391 ; gain = 0.000
+
+Phase 3.7 Small Shape Detail Placement
+Phase 3.7 Small Shape Detail Placement | Checksum: 1a634190e
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:00:56 . Memory (MB): peak = 1903.391 ; gain = 0.000
+
+Phase 3.8 Re-assign LUT pins
+Phase 3.8 Re-assign LUT pins | Checksum: 21ba03e1d
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:00:58 . Memory (MB): peak = 1903.391 ; gain = 0.000
+
+Phase 3.9 Pipeline Register Optimization
+Phase 3.9 Pipeline Register Optimization | Checksum: ea1330c0
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:00:58 . Memory (MB): peak = 1903.391 ; gain = 0.000
+
+Phase 3.10 Fast Optimization
+Phase 3.10 Fast Optimization | Checksum: ea1330c0
+
+Time (s): cpu = 00:01:14 ; elapsed = 00:01:00 . Memory (MB): peak = 1903.391 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: ea1330c0
+
+Time (s): cpu = 00:01:15 ; elapsed = 00:01:00 . Memory (MB): peak = 1903.391 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: d7ad9dcb
+
+Phase 4.1.1.1 BUFG Insertion
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Place 46-31] BUFG insertion identified 0 candidate nets, 0 success, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+Phase 4.1.1.1 BUFG Insertion | Checksum: d7ad9dcb
+
+Time (s): cpu = 00:01:25 ; elapsed = 00:01:07 . Memory (MB): peak = 1903.391 ; gain = 0.000
+INFO: [Place 30-746] Post Placement Timing Summary WNS=1.311. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 10fa39c9e
+
+Time (s): cpu = 00:01:25 ; elapsed = 00:01:08 . Memory (MB): peak = 1903.391 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: 10fa39c9e
+
+Time (s): cpu = 00:01:25 ; elapsed = 00:01:08 . Memory (MB): peak = 1903.391 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 10fa39c9e
+
+Time (s): cpu = 00:01:26 ; elapsed = 00:01:08 . Memory (MB): peak = 1903.391 ; gain = 0.000
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: 10fa39c9e
+
+Time (s): cpu = 00:01:26 ; elapsed = 00:01:08 . Memory (MB): peak = 1903.391 ; gain = 0.000
+
+Phase 4.4 Final Placement Cleanup
+Phase 4.4 Final Placement Cleanup | Checksum: 12d6be669
+
+Time (s): cpu = 00:01:26 ; elapsed = 00:01:08 . Memory (MB): peak = 1903.391 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 12d6be669
+
+Time (s): cpu = 00:01:26 ; elapsed = 00:01:08 . Memory (MB): peak = 1903.391 ; gain = 0.000
+Ending Placer Task | Checksum: 8b59439c
+
+Time (s): cpu = 00:01:26 ; elapsed = 00:01:08 . Memory (MB): peak = 1903.391 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+79 Infos, 4 Warnings, 11 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:01:30 ; elapsed = 00:01:11 . Memory (MB): peak = 1903.391 ; gain = 0.000
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:08 ; elapsed = 00:00:03 . Memory (MB): peak = 1903.391 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.runs/impl_1/microblaze_impl_wrapper_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 1903.391 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_io -file microblaze_impl_wrapper_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.072 . Memory (MB): peak = 1903.391 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file microblaze_impl_wrapper_utilization_placed.rpt -pb microblaze_impl_wrapper_utilization_placed.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.307 . Memory (MB): peak = 1903.391 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file microblaze_impl_wrapper_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.103 . Memory (MB): peak = 1903.391 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC PLIO-6] Placement Constraints Check for IO constraints: Invalid constraint on register microblaze_impl_i/axi_ethernetlite_0/U0/IOFFS_GEN2.DVD_FF. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+WARNING: [DRC PLIO-6] Placement Constraints Check for IO constraints: Invalid constraint on register microblaze_impl_i/axi_ethernetlite_0/U0/IOFFS_GEN2.RER_FF. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+WARNING: [DRC PLIO-6] Placement Constraints Check for IO constraints: Invalid constraint on register microblaze_impl_i/axi_ethernetlite_0/U0/IOFFS_GEN2.TEN_FF. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+WARNING: [DRC PLIO-6] Placement Constraints Check for IO constraints: Invalid constraint on register microblaze_impl_i/axi_ethernetlite_0/U0/IOFFS_GEN[0].RX_FF_I. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+WARNING: [DRC PLIO-6] Placement Constraints Check for IO constraints: Invalid constraint on register microblaze_impl_i/axi_ethernetlite_0/U0/IOFFS_GEN[0].TX_FF_I. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+WARNING: [DRC PLIO-6] Placement Constraints Check for IO constraints: Invalid constraint on register microblaze_impl_i/axi_ethernetlite_0/U0/IOFFS_GEN[1].RX_FF_I. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+WARNING: [DRC PLIO-6] Placement Constraints Check for IO constraints: Invalid constraint on register microblaze_impl_i/axi_ethernetlite_0/U0/IOFFS_GEN[1].TX_FF_I. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+WARNING: [DRC PLIO-6] Placement Constraints Check for IO constraints: Invalid constraint on register microblaze_impl_i/axi_ethernetlite_0/U0/IOFFS_GEN[2].RX_FF_I. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+WARNING: [DRC PLIO-6] Placement Constraints Check for IO constraints: Invalid constraint on register microblaze_impl_i/axi_ethernetlite_0/U0/IOFFS_GEN[2].TX_FF_I. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+WARNING: [DRC PLIO-6] Placement Constraints Check for IO constraints: Invalid constraint on register microblaze_impl_i/axi_ethernetlite_0/U0/IOFFS_GEN[3].RX_FF_I. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+WARNING: [DRC PLIO-6] Placement Constraints Check for IO constraints: Invalid constraint on register microblaze_impl_i/axi_ethernetlite_0/U0/IOFFS_GEN[3].TX_FF_I. It has the property IOB=TRUE, but it is not driving or driven by any IO element.
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 11 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: 1ebc55ec ConstDB: 0 ShapeSum: 6c9cedb0 RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 61214f2f
+
+Time (s): cpu = 00:00:47 ; elapsed = 00:00:38 . Memory (MB): peak = 1903.391 ; gain = 0.000
+Post Restoration Checksum: NetGraph: f5cb2b3 NumContArr: 51c49c7c Constraints: 0 Timing: 0
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 61214f2f
+
+Time (s): cpu = 00:00:48 ; elapsed = 00:00:39 . Memory (MB): peak = 1903.391 ; gain = 0.000
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: 61214f2f
+
+Time (s): cpu = 00:00:48 ; elapsed = 00:00:40 . Memory (MB): peak = 1903.391 ; gain = 0.000
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: 61214f2f
+
+Time (s): cpu = 00:00:48 ; elapsed = 00:00:40 . Memory (MB): peak = 1903.391 ; gain = 0.000
+ Number of Nodes with overlaps = 0
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: d9ff0629
+
+Time (s): cpu = 00:01:01 ; elapsed = 00:00:48 . Memory (MB): peak = 1903.391 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.308  | TNS=0.000  | WHS=-2.354 | THS=-682.081|
+
+
+Phase 2.5 Update Timing for Bus Skew
+
+Phase 2.5.1 Update Timing
+Phase 2.5.1 Update Timing | Checksum: 1825ee5f0
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:00:54 . Memory (MB): peak = 1903.391 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.308  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 2.5 Update Timing for Bus Skew | Checksum: 16c42e0fd
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:00:54 . Memory (MB): peak = 1903.391 ; gain = 0.000
+Phase 2 Router Initialization | Checksum: e6d52720
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:00:55 . Memory (MB): peak = 1903.391 ; gain = 0.000
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 178308f74
+
+Time (s): cpu = 00:01:20 ; elapsed = 00:00:59 . Memory (MB): peak = 1903.391 ; gain = 0.000
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 1736
+ Number of Nodes with overlaps = 115
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.308  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 1dc0d5647
+
+Time (s): cpu = 00:01:35 ; elapsed = 00:01:08 . Memory (MB): peak = 1903.391 ; gain = 0.000
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 7
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.308  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 1933fd76d
+
+Time (s): cpu = 00:01:36 ; elapsed = 00:01:09 . Memory (MB): peak = 1903.391 ; gain = 0.000
+Phase 4 Rip-up And Reroute | Checksum: 1933fd76d
+
+Time (s): cpu = 00:01:36 ; elapsed = 00:01:09 . Memory (MB): peak = 1903.391 ; gain = 0.000
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 1e2636e88
+
+Time (s): cpu = 00:01:38 ; elapsed = 00:01:10 . Memory (MB): peak = 1903.391 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.308  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 5.1 Delay CleanUp | Checksum: 1a9c34632
+
+Time (s): cpu = 00:01:38 ; elapsed = 00:01:10 . Memory (MB): peak = 1903.391 ; gain = 0.000
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 1a9c34632
+
+Time (s): cpu = 00:01:38 ; elapsed = 00:01:10 . Memory (MB): peak = 1903.391 ; gain = 0.000
+Phase 5 Delay and Skew Optimization | Checksum: 1a9c34632
+
+Time (s): cpu = 00:01:38 ; elapsed = 00:01:10 . Memory (MB): peak = 1903.391 ; gain = 0.000
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 1b1e1d00d
+
+Time (s): cpu = 00:01:40 ; elapsed = 00:01:11 . Memory (MB): peak = 1903.391 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.308  | TNS=0.000  | WHS=-0.169 | THS=-0.169 |
+
+Phase 6.1 Hold Fix Iter | Checksum: 1731ae1c7
+
+Time (s): cpu = 00:01:40 ; elapsed = 00:01:11 . Memory (MB): peak = 1903.391 ; gain = 0.000
+Phase 6 Post Hold Fix | Checksum: 180feb22b
+
+Time (s): cpu = 00:01:40 ; elapsed = 00:01:12 . Memory (MB): peak = 1903.391 ; gain = 0.000
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 3.33825 %
+  Global Horizontal Routing Utilization  = 4.17881 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 23061fc63
+
+Time (s): cpu = 00:01:41 ; elapsed = 00:01:12 . Memory (MB): peak = 1903.391 ; gain = 0.000
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 23061fc63
+
+Time (s): cpu = 00:01:41 ; elapsed = 00:01:12 . Memory (MB): peak = 1903.391 ; gain = 0.000
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 23ddd77bd
+
+Time (s): cpu = 00:01:42 ; elapsed = 00:01:14 . Memory (MB): peak = 1903.391 ; gain = 0.000
+
+Phase 10 Post Router Timing
+
+Phase 10.1 Update Timing
+Phase 10.1 Update Timing | Checksum: 1c11fc3f2
+
+Time (s): cpu = 00:01:44 ; elapsed = 00:01:15 . Memory (MB): peak = 1903.391 ; gain = 0.000
+INFO: [Route 35-57] Estimated Timing Summary | WNS=1.308  | TNS=0.000  | WHS=0.051  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 1c11fc3f2
+
+Time (s): cpu = 00:01:44 ; elapsed = 00:01:15 . Memory (MB): peak = 1903.391 ; gain = 0.000
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:01:44 ; elapsed = 00:01:15 . Memory (MB): peak = 1903.391 ; gain = 0.000
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+98 Infos, 15 Warnings, 11 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:01:50 ; elapsed = 00:01:18 . Memory (MB): peak = 1903.391 ; gain = 0.000
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:08 ; elapsed = 00:00:03 . Memory (MB): peak = 1903.391 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.runs/impl_1/microblaze_impl_wrapper_routed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 1903.391 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_drc -file microblaze_impl_wrapper_drc_routed.rpt -pb microblaze_impl_wrapper_drc_routed.pb -rpx microblaze_impl_wrapper_drc_routed.rpx
+Command: report_drc -file microblaze_impl_wrapper_drc_routed.rpt -pb microblaze_impl_wrapper_drc_routed.pb -rpx microblaze_impl_wrapper_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.runs/impl_1/microblaze_impl_wrapper_drc_routed.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 1903.391 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_methodology -file microblaze_impl_wrapper_methodology_drc_routed.rpt -pb microblaze_impl_wrapper_methodology_drc_routed.pb -rpx microblaze_impl_wrapper_methodology_drc_routed.rpx
+Command: report_methodology -file microblaze_impl_wrapper_methodology_drc_routed.rpt -pb microblaze_impl_wrapper_methodology_drc_routed.pb -rpx microblaze_impl_wrapper_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file C:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.runs/impl_1/microblaze_impl_wrapper_methodology_drc_routed.rpt.
+report_methodology completed successfully
+report_methodology: Time (s): cpu = 00:00:24 ; elapsed = 00:00:14 . Memory (MB): peak = 1903.391 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_power -file microblaze_impl_wrapper_power_routed.rpt -pb microblaze_impl_wrapper_power_summary_routed.pb -rpx microblaze_impl_wrapper_power_routed.rpx
+Command: report_power -file microblaze_impl_wrapper_power_routed.rpt -pb microblaze_impl_wrapper_power_summary_routed.pb -rpx microblaze_impl_wrapper_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+110 Infos, 16 Warnings, 11 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 1997.379 ; gain = 93.988
+INFO: [runtcl-4] Executing : report_route_status -file microblaze_impl_wrapper_route_status.rpt -pb microblaze_impl_wrapper_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file microblaze_impl_wrapper_timing_summary_routed.rpt -rpx microblaze_impl_wrapper_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+INFO: [runtcl-4] Executing : report_incremental_reuse -file microblaze_impl_wrapper_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-545] No incremental reuse to report, no incremental placement and routing data was found.
+INFO: [runtcl-4] Executing : report_clock_utilization -file microblaze_impl_wrapper_clock_utilization_routed.rpt
+WARNING: [Memdata 28-167] Found XPM memory block microblaze_impl_i/axi_smc/inst/s01_nodes/s01_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the microblaze_impl_i/axi_smc/inst/s01_nodes/s01_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+WARNING: [Memdata 28-167] Found XPM memory block microblaze_impl_i/axi_smc/inst/s01_nodes/s01_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the microblaze_impl_i/axi_smc/inst/s01_nodes/s01_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+WARNING: [Memdata 28-167] Found XPM memory block microblaze_impl_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the microblaze_impl_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+WARNING: [Memdata 28-167] Found XPM memory block microblaze_impl_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the microblaze_impl_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+WARNING: [Memdata 28-167] Found XPM memory block microblaze_impl_i/axi_smc/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the microblaze_impl_i/axi_smc/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+WARNING: [Memdata 28-167] Found XPM memory block microblaze_impl_i/axi_smc/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the microblaze_impl_i/axi_smc/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+WARNING: [Memdata 28-167] Found XPM memory block microblaze_impl_i/axi_smc/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the microblaze_impl_i/axi_smc/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+WARNING: [Memdata 28-167] Found XPM memory block microblaze_impl_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[0].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the microblaze_impl_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[0].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+WARNING: [Memdata 28-167] Found XPM memory block microblaze_impl_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the microblaze_impl_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+WARNING: [Memdata 28-167] Found XPM memory block microblaze_impl_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the microblaze_impl_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+WARNING: [Memdata 28-167] Found XPM memory block microblaze_impl_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the microblaze_impl_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+WARNING: [Memdata 28-167] Found XPM memory block microblaze_impl_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the microblaze_impl_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+WARNING: [Memdata 28-167] Found XPM memory block microblaze_impl_i/axi_smc/inst/m00_nodes/m00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the microblaze_impl_i/axi_smc/inst/m00_nodes/m00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+WARNING: [Memdata 28-167] Found XPM memory block microblaze_impl_i/axi_smc/inst/m00_nodes/m00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the microblaze_impl_i/axi_smc/inst/m00_nodes/m00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-208] The XPM instance: <microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/TX_PONG_GEN.TX_PONG_I/xpm_mem_gen.xpm_memory_inst/xpm_memory_base_inst> is part of IP: <microblaze_impl_i/axi_ethernetlite_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+INFO: [Memdata 28-208] The XPM instance: <microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/TX_PING/xpm_mem_gen.xpm_memory_inst/xpm_memory_base_inst> is part of IP: <microblaze_impl_i/axi_ethernetlite_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+INFO: [Memdata 28-208] The XPM instance: <microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/RX_PONG_GEN.RX_PONG_I/xpm_mem_gen.xpm_memory_inst/xpm_memory_base_inst> is part of IP: <microblaze_impl_i/axi_ethernetlite_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+INFO: [Memdata 28-208] The XPM instance: <microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/RX_PING/xpm_mem_gen.xpm_memory_inst/xpm_memory_base_inst> is part of IP: <microblaze_impl_i/axi_ethernetlite_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+WARNING: [Memdata 28-167] Found XPM memory block microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to auto. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst block.
+WARNING: [Memdata 28-167] Found XPM memory block microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to auto. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the microblaze_impl_i/axi_ethernetlite_0/U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst block.
+Command: write_bitstream -force microblaze_impl_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC CFGBVS-1] Missing CFGBVS and CONFIG_VOLTAGE Design Properties: Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_design.  Configuration bank voltage select (CFGBVS) must be set to VCCO or GND, and CONFIG_VOLTAGE must be set to the correct configuration voltage, in order to determine the I/O voltage support for the pins in bank 0.  It is suggested to specify these either using the 'Edit Device Properties' function in the GUI or directly in the XDC file using the following syntax:
+
+ set_property CFGBVS value1 [current_design]
+ #where value1 is either VCCO or GND
+
+ set_property CONFIG_VOLTAGE value2 [current_design]
+ #where value2 is the voltage provided to configuration bank 0
+
+Refer to the device configuration user guide for more information.
+WARNING: [DRC REQP-1709] Clock output buffering: PLLE2_ADV connectivity violation. The signal microblaze_impl_i/mig_7series_0/u_microblaze_impl_mig_7series_0_0_mig/u_ddr2_infrastructure/pll_clk3_out on the microblaze_impl_i/mig_7series_0/u_microblaze_impl_mig_7series_0_0_mig/u_ddr2_infrastructure/plle2_i/CLKOUT3 pin of microblaze_impl_i/mig_7series_0/u_microblaze_impl_mig_7series_0_0_mig/u_ddr2_infrastructure/plle2_i does not drive the same kind of BUFFER load as the other CLKOUT pins. Routing from the different buffer types will not be phase aligned.
+WARNING: [DRC RTSTAT-10] No routable loads: 2 net(s) have no routable loads. The problem bus(es) and/or net(s) are microblaze_impl_i/axi_smc/inst/m00_nodes/m00_b_node/inst/s_sc_areset, and microblaze_impl_i/axi_smc/inst/m00_nodes/m00_r_node/inst/s_sc_areset.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 3 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Project 1-821] Please set project.enableDesignId to be 'true'.
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./microblaze_impl_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-186] 'C:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Tue Mar 20 07:34:01 2018. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2017.4/doc/webtalk_introduction.html.
+INFO: [Common 17-83] Releasing license: Implementation
+132 Infos, 36 Warnings, 11 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:42 ; elapsed = 00:00:33 . Memory (MB): peak = 2450.063 ; gain = 447.668
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 20 07:34:02 2018...

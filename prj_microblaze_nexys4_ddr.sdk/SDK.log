@@ -1,0 +1,6 @@
+07:36:45 INFO  : Registering command handlers for SDK TCF services
+07:36:47 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\brent\prj_microblaze_nexys4_ddr\prj_microblaze_nexys4_ddr.sdk\temp_xsdb_launch_script.tcl
+07:36:53 INFO  : XSCT server has started successfully.
+07:36:53 INFO  : Successfully done setting XSCT server connection channel  
+07:36:56 INFO  : Successfully done setting SDK workspace  
+07:36:56 INFO  : Processing command line option -hwspec C:/Users/brent/prj_microblaze_nexys4_ddr/prj_microblaze_nexys4_ddr.sdk/microblaze_impl_wrapper.hdf.
